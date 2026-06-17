@@ -1,0 +1,118 @@
+= MetaData.Schema.UId "bb2c805c-e290-49db-b45e-5bbc13e7f905"
+= MetaData.Schema.A2 "UsrTournament_FormPage"
+= MetaData.Schema.A5 "6f71e54c-1960-40c9-94f6-073fd67699ab"
++ MetaData.Schema.B2 {
+  "UId": "11b575a5-101f-fb09-1cc6-5d7ecfa3c5af",
+  "A2": "addRecord_x40tmh3_caption",
+  "A3": "bb2c805c-e290-49db-b45e-5bbc13e7f905",
+  "A4": "bb2c805c-e290-49db-b45e-5bbc13e7f905",
+  "A5": "bd9b971d-624b-4b02-afa2-206a0e4f7e2c"
+}
++ MetaData.Schema.B2 {
+  "UId": "b36bca9c-df89-5809-2283-7b51b4c670e4",
+  "A2": "addRecord_cjx6cr7_caption",
+  "A3": "bb2c805c-e290-49db-b45e-5bbc13e7f905",
+  "A4": "bb2c805c-e290-49db-b45e-5bbc13e7f905",
+  "A5": "bd9b971d-624b-4b02-afa2-206a0e4f7e2c"
+}
++ MetaData.Schema.B2 {
+  "UId": "6859690f-0bb4-42d3-cc85-10307f1f2daa",
+  "A2": "GridDetailImportDataBtn_caption",
+  "A3": "bb2c805c-e290-49db-b45e-5bbc13e7f905",
+  "A4": "bb2c805c-e290-49db-b45e-5bbc13e7f905",
+  "A5": "bd9b971d-624b-4b02-afa2-206a0e4f7e2c"
+}
++ MetaData.Schema.B2 {
+  "UId": "236f2d77-bcb6-d428-3355-102a4b602e50",
+  "A2": "GridDetailExportDataBtn_caption",
+  "A3": "bb2c805c-e290-49db-b45e-5bbc13e7f905",
+  "A4": "bb2c805c-e290-49db-b45e-5bbc13e7f905",
+  "A5": "bd9b971d-624b-4b02-afa2-206a0e4f7e2c"
+}
++ MetaData.Schema.B2 {
+  "UId": "3ea2e322-d32e-b2eb-be1a-e39020305876",
+  "A2": "TabContainer_pj2pu4v_caption",
+  "A3": "bb2c805c-e290-49db-b45e-5bbc13e7f905",
+  "A4": "bb2c805c-e290-49db-b45e-5bbc13e7f905",
+  "A5": "bd9b971d-624b-4b02-afa2-206a0e4f7e2c"
+}
++ MetaData.Schema.B2 {
+  "UId": "260eba5c-d87a-b08a-a3b9-dee48ce8347a",
+  "A2": "GamesGridDetailSettingsBtn_caption",
+  "A3": "bb2c805c-e290-49db-b45e-5bbc13e7f905",
+  "A4": "bb2c805c-e290-49db-b45e-5bbc13e7f905",
+  "A5": "bd9b971d-624b-4b02-afa2-206a0e4f7e2c"
+}
++ MetaData.Schema.B2 {
+  "UId": "28540289-f6f3-2e3d-b3d1-c31eec2e222e",
+  "A2": "GamesGridDetailRefreshBtn_caption",
+  "A3": "bb2c805c-e290-49db-b45e-5bbc13e7f905",
+  "A4": "bb2c805c-e290-49db-b45e-5bbc13e7f905",
+  "A5": "bd9b971d-624b-4b02-afa2-206a0e4f7e2c"
+}
++ MetaData.Schema.B2 {
+  "UId": "3d0393df-bac2-c826-61e1-a472983a05b3",
+  "A2": "GamesGridDetailAddBtn_caption",
+  "A3": "bb2c805c-e290-49db-b45e-5bbc13e7f905",
+  "A4": "bb2c805c-e290-49db-b45e-5bbc13e7f905",
+  "A5": "bd9b971d-624b-4b02-afa2-206a0e4f7e2c"
+}
++ MetaData.Schema.B2 {
+  "UId": "6b3e6afd-9d54-e9d6-4042-68951916ce3f",
+  "A2": "GamesDetailExpansionPanel_title",
+  "A3": "bb2c805c-e290-49db-b45e-5bbc13e7f905",
+  "A4": "bb2c805c-e290-49db-b45e-5bbc13e7f905",
+  "A5": "bd9b971d-624b-4b02-afa2-206a0e4f7e2c"
+}
++ MetaData.Schema.B2 {
+  "UId": "7f6aa38b-7214-4b86-cef6-ff38fecc7fe7",
+  "A2": "GamesGridDetailSearchFilter_placeholder",
+  "A3": "bb2c805c-e290-49db-b45e-5bbc13e7f905",
+  "A4": "bb2c805c-e290-49db-b45e-5bbc13e7f905",
+  "A5": "bd9b971d-624b-4b02-afa2-206a0e4f7e2c"
+}
+= MetaData.Schema.B2.["fd9e5bd2-19ad-68b5-1356-fe7b39d36f28"].A4 "bb2c805c-e290-49db-b45e-5bbc13e7f905"
+= MetaData.Schema.B2.["a77180d7-a9d0-5c7d-a47b-74c0545a1774"].A4 "bb2c805c-e290-49db-b45e-5bbc13e7f905"
+= MetaData.Schema.B2.["a53e6c9a-741a-21de-9293-9d87d6014595"].A4 "bb2c805c-e290-49db-b45e-5bbc13e7f905"
+= MetaData.Schema.B2.["09d13380-5ba0-e839-0eb2-8c4de07ba379"].A4 "bb2c805c-e290-49db-b45e-5bbc13e7f905"
+= MetaData.Schema.B2.["3e977072-67fa-588e-d554-1d5c45e71ae9"].A4 "bb2c805c-e290-49db-b45e-5bbc13e7f905"
+= MetaData.Schema.B2.["231defdf-a768-e23a-fb30-1af82d65f9f9"].A4 "bb2c805c-e290-49db-b45e-5bbc13e7f905"
+= MetaData.Schema.B2.["d6b949fc-ba7c-e706-6a88-0422133b6a4e"].A4 "bb2c805c-e290-49db-b45e-5bbc13e7f905"
+= MetaData.Schema.B2.["ea614858-aa1f-88eb-88df-0df1c32cb9e4"].A4 "bb2c805c-e290-49db-b45e-5bbc13e7f905"
+= MetaData.Schema.B2.["a9f73c3b-ba40-54c2-52c9-53cb864eba03"].A4 "bb2c805c-e290-49db-b45e-5bbc13e7f905"
+= MetaData.Schema.B2.["0011a5bb-3302-742c-a621-c833f2ec8174"].A4 "bb2c805c-e290-49db-b45e-5bbc13e7f905"
+= MetaData.Schema.B2.["67995f5e-d70a-e2a3-5494-a22737ff9c44"].A4 "bb2c805c-e290-49db-b45e-5bbc13e7f905"
+= MetaData.Schema.B2.["be578da5-5d7d-ab2f-1e20-3e60b2942dd8"].A4 "bb2c805c-e290-49db-b45e-5bbc13e7f905"
+= MetaData.Schema.B2.["bdd7993a-a255-b4d6-62d6-fe0785da6821"].A4 "bb2c805c-e290-49db-b45e-5bbc13e7f905"
+~ MetaData.Schema.B2 [
+  "11b575a5-101f-fb09-1cc6-5d7ecfa3c5af",
+  "b36bca9c-df89-5809-2283-7b51b4c670e4",
+  "6859690f-0bb4-42d3-cc85-10307f1f2daa",
+  "236f2d77-bcb6-d428-3355-102a4b602e50",
+  "3ea2e322-d32e-b2eb-be1a-e39020305876",
+  "260eba5c-d87a-b08a-a3b9-dee48ce8347a",
+  "28540289-f6f3-2e3d-b3d1-c31eec2e222e",
+  "3d0393df-bac2-c826-61e1-a472983a05b3",
+  "6b3e6afd-9d54-e9d6-4042-68951916ce3f",
+  "7f6aa38b-7214-4b86-cef6-ff38fecc7fe7",
+  "fd9e5bd2-19ad-68b5-1356-fe7b39d36f28",
+  "a77180d7-a9d0-5c7d-a47b-74c0545a1774",
+  "a53e6c9a-741a-21de-9293-9d87d6014595",
+  "09d13380-5ba0-e839-0eb2-8c4de07ba379",
+  "3e977072-67fa-588e-d554-1d5c45e71ae9",
+  "231defdf-a768-e23a-fb30-1af82d65f9f9",
+  "d6b949fc-ba7c-e706-6a88-0422133b6a4e",
+  "ea614858-aa1f-88eb-88df-0df1c32cb9e4",
+  "a9f73c3b-ba40-54c2-52c9-53cb864eba03",
+  "0011a5bb-3302-742c-a621-c833f2ec8174",
+  "67995f5e-d70a-e2a3-5494-a22737ff9c44",
+  "be578da5-5d7d-ab2f-1e20-3e60b2942dd8",
+  "bdd7993a-a255-b4d6-62d6-fe0785da6821"
+]
+= MetaData.Schema.B6 "5fac700a-696e-4e22-bb2c-bae763aa9209"
+= MetaData.Schema.HD1 "3b2e117f-8c6b-4ca5-80a2-7ebb497cddf9"
++ MetaData.Schema.HD15 1
+= MetaData.Schema.HD6 "define('{0}Structure', ['{0}Resources'], function(resources) {{return {{schemaUId:'{2}',schemaName:'{3}',parentSchemaUId:'{4}',extendParent:{5},type:Terrasoft.SchemaType.ANGULAR_SCHEMA,entitySchema:'',name:'',extend:'Terrasoft.model.BaseViewModel',schema:{{leftPanel:[],rightPanel:[],actions:[],analytics:[]}},methods:{{}},controlsConfig:{{}},customBindings:{{}},bindings:{{}},parameters:{{}},schemaVersion:1,optionalProperties:{{}},schemaDifferences:function(){{\n{1}\n}}}};}});"
+- MetaData.Schema.B7
+- MetaData.Schema.HD12
++ MetaData.Schema.B7 false

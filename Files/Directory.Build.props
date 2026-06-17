@@ -1,0 +1,8 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/UsrTournamentsApp/Schemas/UsrGame/UsrGame.cs" Condition="Exists('$(PkgPath)/UsrTournamentsApp/Schemas/UsrGame/UsrGame.cs')" />
+		<Compile Include="$(PkgPath)/UsrTournamentsApp/Schemas/UsrGameResult/UsrGameResult.cs" Condition="Exists('$(PkgPath)/UsrTournamentsApp/Schemas/UsrGameResult/UsrGameResult.cs')" />
+		<Compile Include="$(PkgPath)/UsrTournamentsApp/Schemas/UsrTournament/UsrTournament.cs" Condition="Exists('$(PkgPath)/UsrTournamentsApp/Schemas/UsrTournament/UsrTournament.cs')" />
+		<Compile Include="$(PkgPath)/UsrTournamentsApp/Schemas/UsrTournamentType/UsrTournamentType.cs" Condition="Exists('$(PkgPath)/UsrTournamentsApp/Schemas/UsrTournamentType/UsrTournamentType.cs')" />
+	</ItemGroup>
+</Project>

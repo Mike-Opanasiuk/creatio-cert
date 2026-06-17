@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "f0561fae-3fd2-46f2-bcd1-a56e41be3310",
+    "Name": "UsrTournamentBusinessRule",
+    "ModifiedOnUtc": "\/Date(1781688154000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Tournament (Business rules)",
+    "DependsOn": []
+  }
+}

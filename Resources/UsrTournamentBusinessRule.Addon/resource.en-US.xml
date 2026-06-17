@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.fba44652-3fac-98aa-a3ed-87fe7c6d0609.Caption" Value="Apply static filter: Manager" />
+			<Item Name="Caption" Value="Tournament (Business rules)" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Game" />
+			<Item Name="Columns.UsrDateTime.Caption" Value="Game date and time" />
+			<Item Name="Columns.UsrDuration.Caption" Value="Duration, seconds" />
+			<Item Name="Columns.UsrGameResult.Caption" Value="Game result" />
+			<Item Name="Columns.UsrPlayerBl.Caption" Value="Player Bl" />
+			<Item Name="Columns.UsrPlayerWh.Caption" Value="Player Wh" />
+			<Item Name="Columns.UsrTournament.Caption" Value="Tournament" />
+		</Items>
+	</Group>
+</Resources>

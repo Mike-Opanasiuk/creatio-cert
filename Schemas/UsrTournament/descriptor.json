@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "9ad0bdf1-e9ff-4f81-bb29-7740fc2db096",
+    "Name": "UsrTournament",
+    "ModifiedOnUtc": "\/Date(1781688152000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Tournament",
+    "DependsOn": []
+  }
+}
