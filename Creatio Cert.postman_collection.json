@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "d9bad17c-c1ef-4f06-915b-f0165393223d",
+		"name": "Creatio Cert",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17106301"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"UserName\" : \"Supervisor\",\r\n    \"UserPassword\" : \"SupervisorSupervisor\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:82/ServiceModel/AuthService.svc/Login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "82",
+					"path": [
+						"ServiceModel",
+						"AuthService.svc",
+						"Login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Finished Games Total Duration",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "BPMCSRF",
+						"value": "GG0J26kiGhOMm4lapEGdSO",
+						"type": "text"
+					},
+					{
+						"key": ".ASPXAUTH",
+						"value": "A0391556DB55AACE6874EAFDA34817E54A1AA54A6A2F052AED3C53E4E5E99B2AA64AFB14C02A98BD7A113D8B7A9A10B35E1BB98E65CD4BFD728E5E9ACAD4ADA39B97ADBF340C9A9A4A27C98BB589CF2C110761BFDFC7D2248E6AED64EA240631FAC7B1FC06DA7118FEB12E3738B04FC8194D1FF921AC54A5DD989B050B64EED21D95C8FB1EA4F5DBD7B93E9F68388D61DC0DF2FB15EC6E7B859F8EBF7203ECC4270786A3F29311EF23EABF3A969089E1D17BFCF51DCCD77795C1E5CE43C88BAAB9F4B5AE5E3B66AB3A567EDD732F6AF788133E74AC20DBAE6DEB694573EAE66EF8E577CB8D23295EF11F4C72C73DC57E7F05D02FA08A3B2279B0AC1F5438AC2F45E282933C16B7B14F7BCB696590F2E648735454239B5A949BA503CBB5D87AE5D3B692DAA0CBE151FAF08582B134E847FEAE0D06C5013E31284FD3A70F79E1C1254E60E45452B8B4DA1875D760FEAB44A5C409B4499412342A5E5B8A2A1066EE5A645ED1CF5C11D35B89A087C431872C7EBB66403F814DBD7ACC951253C436C1E5600CF025E5B0B61FFAD27BE729310DF7E391ED42C3794D43CF17340F7CD9C4E55AD8263DA932D1996DFE1C7BFB294B539DB718A7E9BE6BBD7A8E4D57527C71E46F55B4A071D1688218DBEC85E226BBD52710F2EC8EC3C5CC93EE41ED799C32604B3A898F401C497977E4672B4F9E09675E43BA8FBC105A22D9CFFE02C6D4A1166AB1B8E903F195F533286120EC2DC33C5F18CB3138CAE1CDF070EF9F0919F1961092FE86C67C28422C3BC944FA751899FBEFD38506E82884C7E0C1252CE9CB12B7D1A8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"tournamentCode\": \"code-1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:82/0/rest/UsrTournamentDurationWebService/GetFinishedGamesTotalDuration",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "82",
+					"path": [
+						"0",
+						"rest",
+						"UsrTournamentDurationWebService",
+						"GetFinishedGamesTotalDuration"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

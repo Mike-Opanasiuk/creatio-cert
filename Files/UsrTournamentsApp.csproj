@@ -3,6 +3,7 @@
 		<AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
 		<CoreTargetFramework Condition="'$(CoreTargetFramework)' == ''">net472</CoreTargetFramework>
 		<TargetFramework>$(CoreTargetFramework)</TargetFramework>
+		<LangVersion>10</LangVersion>
 	</PropertyGroup>
 	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
 		<DebugSymbols>true</DebugSymbols>
