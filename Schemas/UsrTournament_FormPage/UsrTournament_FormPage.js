@@ -48,6 +48,33 @@ define("UsrTournament_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SC
 			},
 			{
 				"operation": "insert",
+				"name": "AddGamesButton",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(AddGamesButton_caption)#",
+					"color": "accent",
+					"disabled": false,
+					"size": "large",
+					"iconPosition": "only-text",
+					"visible": true,
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "UsrAddTournamentGamesProcess",
+							"processRunType": "ForTheSelectedPage",
+							"saveAtProcessStart": true,
+							"showNotification": true,
+							"recordIdProcessParameterName": "UsrTournamentId"
+						}
+					},
+					"clickMode": "default"
+				},
+				"parentName": "ActionButtonsContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "UsrTitle",
 				"values": {
 					"layoutConfig": {
@@ -702,6 +729,7 @@ define("UsrTournament_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SC
 					"attributes"
 				],
 				"values": {
+					"OnServerMsgSent": {},
 					"PDS_UsrTitle_m1i261s": {
 						"modelConfig": {
 							"path": "PDS.UsrTitle"
@@ -900,6 +928,63 @@ define("UsrTournament_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SC
 						return false;
 					}
 
+					return next?.handle(request);
+				}
+			},
+			{
+				request: "crt.HandleViewModelInitRequest",
+				handler: async (request, next) => {
+					await next?.handle(request);
+				
+					request.$context.OnServerMsgSent = async function(event, message) {
+						if (message?.Header?.Sender !== "UsrTournamentGamesAdded") {
+							return;
+						}
+					
+						let body = {};
+						try {
+							body = JSON.parse(message.Body);
+						} catch (e) {
+							console.warn("Could not parse message.Body")
+							return;
+						}
+					
+						const currentTournamentId = await this.Id;
+					
+						if ( body?.TournamentId?.toLowerCase() !== currentTournamentId?.toLowerCase() ) {
+							console.warn("Tournament ids does not match");
+							return;
+						}
+					
+						await this.executeRequest({
+							type: "crt.LoadDataRequest",
+							$context: this,
+							config: {
+								loadType: "reload",
+								useLastLoadParameters: true
+							},
+							dataSourceName: "GamesGridDetailDS"
+						});
+					};
+				
+					Terrasoft.ServerChannel.on(
+						Terrasoft.EventName.ON_MESSAGE,
+						await request.$context.OnServerMsgSent,
+						request.$context
+					);
+				}
+			},
+			{
+				request: "crt.HandleViewModelDestroyRequest",
+				handler: async (request, next) => {
+					if (request.$context.OnServerMsgSent) {
+						Terrasoft.ServerChannel.un(
+							Terrasoft.EventName.ON_MESSAGE,
+							await request.$context.OnServerMsgSent,
+							request.$context
+						);
+					}
+				
 					return next?.handle(request);
 				}
 			}

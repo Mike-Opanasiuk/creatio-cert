@@ -28,6 +28,36 @@ public class UsrTournamentDurationRepository
             : GetFinishedGamesTotalDurationByTournamentId(tournamentId);
     }
 
+    public int AddAutomaticGames(Guid tournamentId)
+    {
+        if (tournamentId.IsEmpty())
+        {
+            return 0;
+        }
+
+        EntitySchema gameSchema = _userConnection.EntitySchemaManager.GetInstanceByName("UsrGame");
+
+        DateTime firstGameDateTime = DateTime.UtcNow;
+        int createdCount = 0;
+
+        for (int i = 0; i < 8; i++)
+        {
+            Entity game = gameSchema.CreateEntity(_userConnection);
+
+            game.SetDefColumnValues();
+
+            game.SetColumnValue("UsrTournamentId", tournamentId);
+            game.SetColumnValue("UsrDateTime", firstGameDateTime.AddHours(i * 2));
+
+            game.Save(false);
+
+            createdCount++;
+        }
+
+        return createdCount;
+    }
+
+
     private Guid GetTournamentIdByCode(string tournamentCode)
     {
         var esq = new EntitySchemaQuery(_userConnection.EntitySchemaManager, "UsrTournament")

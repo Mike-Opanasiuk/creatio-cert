@@ -71,6 +71,13 @@
   "A4": "bb2c805c-e290-49db-b45e-5bbc13e7f905",
   "A5": "bd9b971d-624b-4b02-afa2-206a0e4f7e2c"
 }
++ MetaData.Schema.B2 {
+  "UId": "e999e0b4-3db6-d26c-4fb4-f1ed32a9c993",
+  "A2": "AddGamesButton_caption",
+  "A3": "bb2c805c-e290-49db-b45e-5bbc13e7f905",
+  "A4": "bb2c805c-e290-49db-b45e-5bbc13e7f905",
+  "A5": "bd9b971d-624b-4b02-afa2-206a0e4f7e2c"
+}
 = MetaData.Schema.B2.["fd9e5bd2-19ad-68b5-1356-fe7b39d36f28"].A4 "bb2c805c-e290-49db-b45e-5bbc13e7f905"
 = MetaData.Schema.B2.["a77180d7-a9d0-5c7d-a47b-74c0545a1774"].A4 "bb2c805c-e290-49db-b45e-5bbc13e7f905"
 = MetaData.Schema.B2.["a53e6c9a-741a-21de-9293-9d87d6014595"].A4 "bb2c805c-e290-49db-b45e-5bbc13e7f905"
@@ -95,6 +102,7 @@
   "3d0393df-bac2-c826-61e1-a472983a05b3",
   "6b3e6afd-9d54-e9d6-4042-68951916ce3f",
   "7f6aa38b-7214-4b86-cef6-ff38fecc7fe7",
+  "e999e0b4-3db6-d26c-4fb4-f1ed32a9c993",
   "fd9e5bd2-19ad-68b5-1356-fe7b39d36f28",
   "a77180d7-a9d0-5c7d-a47b-74c0545a1774",
   "a53e6c9a-741a-21de-9293-9d87d6014595",

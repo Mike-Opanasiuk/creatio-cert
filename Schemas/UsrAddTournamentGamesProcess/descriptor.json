@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "3244ef3f-ef0c-4fd3-b7fd-97cac593f48f",
+    "Name": "UsrAddTournamentGamesProcess",
+    "ModifiedOnUtc": "\/Date(1781815332000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Add Tournament Games Process",
+    "DependsOn": []
+  }
+}
